@@ -1,7 +1,22 @@
-#Directories
-.vs/
-.bin/
-.bin-int/
+# Binaries
+# Ignore all bin folders anywhere
+**/bin/
+# Ignore bin-int folders
+**/bin-int/
+**/Intermediates/
 
-#Files
-*.user
+
+
+# Hazel files
+*.log
+
+# Visual Studio files and folder
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+**.csproj
+
+
+

@@ -12,6 +12,8 @@
 #include<functional>
 #include<algorithm>
 
+#include"Hazel/Log.h"
+
 #ifdef HZ_PLATFORM_WINDOWS
 	#include<Windows.h>
 #endif // HZ_PLATFORM_WINDOWS
